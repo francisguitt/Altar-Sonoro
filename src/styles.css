@@ -40,7 +40,15 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
+/* =================avatar============== */
 
+.avatar, img {
+  width: 80%;
+  text-align: center;
+  height: auto;
+  background: transparent !important;
+}
+/* ============================ */
 /* ════ COSMOS BG ════ */
 #cosmos {
   position: fixed;
