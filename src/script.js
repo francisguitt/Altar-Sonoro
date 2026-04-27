@@ -1,5 +1,5 @@
 /**
- author: Jose francisco GuittZoom
+ author: Francis/ GuittZoom
  data: 2026-04-27 
  title: altar sonoro 
  subtitle: "Estados Alterados de Consciência · Cura · Natureza"
