@@ -1,10 +1,8 @@
-#Altar Sonoro
-#Estados Alterados de Consciência · Cura · Natureza
-
 
 
 
 🔊 Altar Sonoro
+#Estados Alterados de Consciência · Cura · Natureza
 Frequências · Sons da Natureza · Estados de Consciência
 🌿 Sobre o Projeto
 
