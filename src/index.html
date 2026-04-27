@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Altar Sonoro · Estados de Consciência</title>
+  </head>
+  <body>
+    <div id="cosmos"></div>
+    <div id="sacred"></div>
+
+    <div class="wrapper">
+      <!-- HEADER -->
+      <div class="header">
+        <h1>Altar Sonoro</h1>
+        <p>Estados Alterados de Consciência · Cura · Natureza</p>
+      </div>
+
+      <!-- MASTER BAR -->
+      <div class="master-bar">
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.3rem;
+          "
+        >
+          <label>Volume Mestre</label>
+          <input type="range" id="masterVol" min="0" max="100" value="80" />
+        </div>
+        <div class="timer-display" id="timerDisp">00:00</div>
+        <button class="btn-master stop" id="btnStop">■ Parar Tudo</button>
+        <button class="btn-master" id="btnSchedToggle">⏱ Agendar</button>
+      </div>
+
+      <!-- SCHEDULER -->
+      <div class="scheduler" id="scheduler" style="display: none">
+        <div class="sched-row">
+          <div class="sched-field">
+            <label>▶ Iniciar às</label>
+            <input type="time" id="schedStart" />
+          </div>
+          <div class="sched-field">
+            <label>■ Parar às</label>
+            <input type="time" id="schedStop" />
+          </div>
+          <button class="btn-master" id="btnSchedConfirm">✓ Confirmar</button>
+          <button
+            class="btn-master stop"
+            id="btnSchedCancel"
+            style="display: none"
+          >
+            ✕ Cancelar
+          </button>
+        </div>
+        <div class="sched-status" id="schedStatus"></div>
+      </div>
+
+      <!-- FREQUÊNCIAS BINAURAIS -->
+      <div class="section-title">
+        Frequências Binaurais · Estados de Consciência
+      </div>
+      <div class="grid grid-3" id="binauralGrid"></div>
+
+      <!-- FREQUÊNCIAS DE CURA -->
+      <div class="section-title">Frequências de Cura · Solfeggio</div>
+      <div class="grid grid-3" id="solfeggioGrid"></div>
+
+      <!-- SONS DA NATUREZA -->
+      <div class="section-title">Sons da Natureza & Ambiente</div>
+      <div class="grid grid-3" id="natureGrid"></div>
+
+      <!-- VISUALIZADOR GLOBAL -->
+      <div class="vis-section">
+        <div class="section-title" style="margin: 0 0 0.6rem">
+          Visualizador · Mix Atual
+        </div>
+        <canvas id="globalVis"></canvas>
+      </div>
+
+      <div class="footer">
+        Use fones de ouvido estéreo · Sons binaurais requerem áudio separado por
+        ouvido
+      </div>
+      <div class="author">
+        <a class="author-link" href="https://www.instagram.com/guittzoom">
+          Desenvolvido com por GuittZoom</a
+        >
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
